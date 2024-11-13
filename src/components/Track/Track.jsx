@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 // export function Track({trackTitle="тест" , trackAuthor="тест" , trackAlbum="тест" , trackTime="тест"} = {} ) {
 
-export function Track(trackTitle , trackAuthor , trackAlbum, trackTime ) {
+export function Track({trackTitle , trackAuthor , trackAlbum, trackTime }){
     return (
         <div className="playlist__item">
         <div className="playlist__track track">
