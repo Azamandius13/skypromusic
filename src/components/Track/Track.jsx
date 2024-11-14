@@ -43,5 +43,5 @@ Track.propTypes = {
   time: PropTypes.string.isRequired
 };
 
-export default Track();
+export default Track;
 
