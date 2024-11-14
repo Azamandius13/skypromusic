@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Slidebar() {
+export function Sidebar() {
     return (
         <div className="main__sidebar sidebar">
               <div className="sidebar__personal">
@@ -46,4 +46,4 @@ export function Slidebar() {
     )
 }
 
-export default Slidebar;
+export default Sidebar;

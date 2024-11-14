@@ -5,7 +5,7 @@ import Container from './components/Container/Container';
 import Main from './components/Main/Main';
 import Navigation from './components/Navigation/Navigation';
 import TrackList from './components/TrackList/TrackList';
-import Slidebar from './components/Sidebar/Slidebar';
+import Sidebar from './components/Sidebar/Sidebar';
 import Trackbar from './components/Trackbar/Trackbar';
 import Footer from './components/Footer/Footer';
 
@@ -17,7 +17,7 @@ function App() {
           <Main>
             <Navigation />
             <TrackList />
-            <Slidebar/>
+            <Sidebar/>
           </Main>
           <Trackbar/>
           <Footer/>

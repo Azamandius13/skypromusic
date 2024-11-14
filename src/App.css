@@ -115,7 +115,7 @@ body {
   -webkit-box-flex: 3;
   -ms-flex-positive: 3;
   flex-grow: 3;
-  padding: 20px 40px 20px 111px;
+  padding: 20px 40px 20px 20px;
 }
 
 .main__sidebar {
@@ -356,7 +356,7 @@ body {
 }
 
 .col01 {
-  width: 447px;
+  width: 360px;
 }
 
 .col02 {
@@ -405,7 +405,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 447px;
+  width: 360px;
 }
 
 .track__title-image {
