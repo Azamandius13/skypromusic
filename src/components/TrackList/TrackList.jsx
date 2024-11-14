@@ -115,12 +115,13 @@ export function TrackList() {
         </div>
         <div className="content__playlist playlist">
           {trackListArr.map((track)=> (
+            
             <Track 
             key={track.id}
-            trackTitle={track.trackTitle} 
-            trackAuthor = {track.trackAuthor}
-            trackAlbum = {track.trackAlbum}
-            trackTime = {track.trackTime}
+            title={track.trackTitle} 
+            author = {track.trackAuthor}
+            album = {track.trackAlbum}
+            time = {track.trackTime}
              />
             ))} 
         </div>
